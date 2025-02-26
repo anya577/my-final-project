@@ -9,6 +9,6 @@ import { Component, inject, OnInit } from '@angular/core';
   styleUrl: './designation.component.css'
 })
 export class DesignationComponent {
-  
+  isLoader: boolean = true;
   }
 
