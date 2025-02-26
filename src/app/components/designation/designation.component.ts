@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
+// import { MainService } from '../services/main.service';
 
 @Component({
   selector: 'app-designation',
@@ -8,5 +9,6 @@ import { Component } from '@angular/core';
   styleUrl: './designation.component.css'
 })
 export class DesignationComponent {
+  
+  }
 
-}
